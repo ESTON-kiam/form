@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Hospital Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body><table>
+  <div class="container">
+    <h1>Hospital Registration Form</h1>
+    <form action="register.php" method="post">
+      <label for="name" aria-placeholder="Name of the patient">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="id">ID:</label><br>
+      <input type="text" id="id" name="id"><br>
+      <label for="specialist">Specialist:</label><br>
+      <select id="specialist" name="specialist">
+        <option value="General Physician">General Physician</option>
+        <option value="Cardiologist">Cardiologist</option>
+        <option value="Neurologist">Neurologist</option>
+        <option value="Oncologist">Oncologist</option>
+        <option value="Ophthalmologist">Ophthalmologist</option>
+        <option value="Dentist">Dentist</option>
+        <option value="Dermatologist">Dermatologist</option>
+        <option value="Gynecologist">Gynecologist</option>
+        <option value="Pediatrician">Pediatrician</option>
+      </select><br><br>
+      <label for="pass">Password:</label><br>
+      <input type="password" id="pass" name="pass" placeholder="Password"><br>
+      
+      <input type="submit" value="Register">
+    </form>
+  </div></table>
+  <p class="des">WELCOME TO OUR HOSPITAL PLATFORM.IT HAS BEEN OUR CULTURE TO START BY REGISTERING WITH <BR>US 
+    OUR HOSPITAL IS WORKING VERY  CLOSE WITH YOU TO MAKE THIS HOSPITAL</p>
+</body>
+</html>
